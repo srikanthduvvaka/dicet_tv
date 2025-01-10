@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'dev' }
+    agent any
     tools { maven 'maven' }
 
     stages {
